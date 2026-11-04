@@ -72,7 +72,6 @@ jobs:
       - name: 循环检查邀请码
         env:
           SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
-          INVITE_CODE: "elysianhorizon"
         run: |
           # 配置一个用于提交的机器人身份。
           git config user.name "github-actions[bot]"
