@@ -35,7 +35,7 @@ import requests
 # ---------------------------------------------------------------------------
 
 # 要监控的 Discord 邀请码（就是邀请链接 https://discord.gg/XXXX 里的 XXXX 部分）。
-INVITE_CODE = os.environ.get("INVITE_CODE", "elysianhorizon")
+INVITE_CODE = os.environ.get("INVITE_CODE", "puppyboo")
 
 # Server酱 的 SendKey，从环境变量读取（在 GitHub Secrets 里配置为 SERVERCHAN_SENDKEY）。
 SERVERCHAN_SENDKEY = os.environ.get("SERVERCHAN_SENDKEY", "")
